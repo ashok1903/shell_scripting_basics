@@ -1,0 +1,19 @@
+echo "enter a"
+read a
+echo "enter b"
+read b
+echo "enter c"
+read c
+if [ $a -gt $b ] ; then
+if [ $a -gt $c ] ; then
+echo -e " $a is largest number "
+else
+echo -e " $c is largest number "
+fi
+else
+if [ $b -gt $c ] ; then
+echo -e " $b is largest number "
+else
+echo -e " $c is largest number "
+fi
+fi
